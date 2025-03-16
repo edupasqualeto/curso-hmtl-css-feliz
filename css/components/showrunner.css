@@ -1,0 +1,15 @@
+.showrunner {
+}
+
+.showrunner .box1 {
+    display: block;
+    background-color: #643CFF;
+    background-size: 100%;
+    width: 1440px;
+    height: 730px;
+    border-bottom: 10px solid #C64D2A;
+}
+
+.showrunner .subtitle {
+    text-shadow: 0px 0px 0px #000;
+}

@@ -1,6 +1,6 @@
 .button {
     display: inline-block;
-    background-color: #01415B;
+    background-color: #643CFF;
     font-family: "Fira Code";
     font-weight: 500;
     color: #fff;
@@ -15,6 +15,6 @@
 
 .button:hover {
     transform: scale(1.06);
-    background: #02597c;
+    background: #643CFF;
     box-shadow: 0px 0px 0px 0px #000000;
 }
