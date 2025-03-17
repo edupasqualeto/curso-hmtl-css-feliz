@@ -10,3 +10,10 @@
 .section .main-subtitle {
     margin-bottom: 100px;
 }
+
+.section.-bgBlack {
+    background-color: black;
+    height: 520px;
+    background-size: 100%;
+    border-bottom: 10px solid #643CFF;
+}
