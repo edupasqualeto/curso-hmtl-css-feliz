@@ -6,3 +6,7 @@
     height: 730px;
     border-bottom: 10px solid #C64D2A;
 }
+
+.section .main-subtitle {
+    margin-bottom: 100px;
+}
