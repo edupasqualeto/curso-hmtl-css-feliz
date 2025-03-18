@@ -17,3 +17,9 @@
     background-size: 100%;
     border-bottom: 10px solid #643CFF;
 }
+
+.main-section.-bgSobre {
+    background-color: #C64D2A;
+    height: 780px;
+    border-bottom: 10px solid #000;
+}
