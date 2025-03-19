@@ -28,6 +28,9 @@
     <link rel="stylesheet" href="css/components/button-arrow.css">
     <link rel="stylesheet" href="css/components/node-card.css">
     <link rel="stylesheet" href="css/components/main-carousel.css">
+    <link rel="stylesheet" href="css/components/only-footer.css">
+    <link rel="stylesheet" href="css/components/main-form.css">
+    <link rel="stylesheet" href="css/components/wrapper-form.css">
 </head>
 
 <body>
@@ -167,16 +170,6 @@
     <section class="main-section -bgSobre">
         <h3 class="main-subtitle -second">Sobre</h3>     
 
-        <p class="desc-sobre">Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, 
-            Marco já trabalhou nas mais diversas áreas. Foi palhaço, 
-            entrou na área de TI como desenvolvedor HMI/PLC e gosta de 
-            ir descobrindo seu caminho conforme o percorre. Marco também 
-            tem uma crescente presença em comunidades de UX e Front-end, 
-            trabalhando para uní-las, palestra em empresas e eventos como 
-            o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas 
-            da Web e seu Medium, quando não está jogando Airsoft ou trocando 
-            ideias com amigos.</p>
-
         <section class="main-carousel">
             <button class="button-arrow -left"><span class="content">Avançar</span></button>
             
@@ -227,6 +220,52 @@
             </div>
             <button class="button-arrow -right"><span class="content">Voltar</span></button>
         </section>
+
+        <p class="desc-sobre">Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, 
+            Marco já trabalhou nas mais diversas áreas. Foi palhaço, 
+            entrou na área de TI como desenvolvedor HMI/PLC e gosta de 
+            ir descobrindo seu caminho conforme o percorre. Marco também 
+            tem uma crescente presença em comunidades de UX e Front-end, 
+            trabalhando para uní-las, palestra em empresas e eventos como 
+            o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas 
+            da Web e seu Medium, quando não está jogando Airsoft ou trocando 
+            ideias com amigos.</p>
+
+
     </section>
+
+    <section class="main-form">
+        <div class="wrapper-form">
+            <h3 class="main-subtitle -third">Contatos</h3>
+
+            <form action="" method="get" class="name-form">
+                <div class="complete-name">
+                <label for="name">Nome </label>
+                <input class="box-box" type="text" id="name" required />
+
+            <form action="" method="get" class="name-form">
+                <div class="complete-name">
+                    <label for="email">Email </label>
+                    <input class="box-box" type="email" id="email" required />
+                    
+            <form action="" method="get" class="name-form">
+                <div class="complete-name">
+                    <label for="msg">Mensagem </label>
+                    <input class="box-box -maior" type="text" id="msg" required />      
+
+            <a class="main-button -enviar" href="enviar-button">Enviar</a>
+        </div>
+    </section>
+
+
+    <footer class="only-footer">
+        <div class="main-footer">
+            <a href="http://instagram.com/edupasqualeto" target="_blank"><img class="tt" src="assets/img/icon-twitter.png" alt="logo twitter"></a>
+            <a href=""><img class="yt" src="assets/img/icon-youtube.png" alt="logo intagram"></a>
+            <a href=""><img src="assets/img/icon-discord.png" alt="logo linkedin"></a>
+        </div>    
+    </footer>
+
+    <script src="js/components/main-carousel.js"></script>
 </body>
 </html>

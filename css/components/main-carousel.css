@@ -24,7 +24,7 @@
     left: 0;
     top: 75px;
     display: block;
-    width: 100px;
+    width: 100%;
     border: 3px dashed black;
 }
 
@@ -42,6 +42,7 @@
     right: 15px;
 }
 
+
 .main-carousel .items {
     width: 100%;
     overflow: hidden;
@@ -49,5 +50,5 @@
 
 .main-carousel .elements {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }

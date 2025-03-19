@@ -1,0 +1,21 @@
+.only-footer {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-footer {
+    margin-left: 612px;
+    margin-right: 612px;
+}
+
+.main-footer .tt {
+    margin-right: 40px;
+}
+
+.main-footer .yt {
+    margin-right: 40px;
+}

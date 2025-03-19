@@ -18,3 +18,16 @@
     background: #643CFF;
     box-shadow: 0px 0px 0px 0px #000000;
 }
+
+.main-button.-enviar {
+    height: 60px;
+    width: 99%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.main-button.-enviar:hover {
+    transform: none;
+    background: #643CFF;
+    box-shadow: 0px 0px 0px 0px #000000;
+}
