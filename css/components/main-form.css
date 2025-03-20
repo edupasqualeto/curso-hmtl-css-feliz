@@ -21,13 +21,17 @@ label {
 }
 
 .complete-name .box-box {
+    box-sizing: border-box;
     width: 100%;
     height: 50px;
     border: 5px solid black;
+    margin-bottom: 20px;
 }
 
 .complete-name .box-box.-maior {
+    box-sizing: border-box;
     width: 100%;
     height: 320px;
     border: 5px solid black;
+    margin-bottom: 40px;
 }
